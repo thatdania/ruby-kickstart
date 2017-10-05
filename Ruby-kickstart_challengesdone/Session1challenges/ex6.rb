@@ -23,8 +23,8 @@ return_n = ''
       return_n << string[index]
       #those indexes will return into the empty string
     end
-    puts return_n
+    print return_n
     # will put out the empty string!
 end
 
-puts odds_and_evens("abcdefg",false)
+puts odds_and_evens("abcdefg",true)
